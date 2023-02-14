@@ -1,0 +1,62 @@
+{
+  "products": [
+    {
+      "name": "Product 1",
+      "campaigns": [
+        {
+          "name": "Campaign 1",
+          "keywords": ["keyword 1", "keyword 2", "keyword 3"],
+          "bid": 0.5,
+          "fund": 100,
+          "status": "on",
+          "town": "Cracow",
+          "radius": 10
+        },
+        {
+          "name": "Campaign 2",
+          "keywords": ["keyword 1", "keyword 2", "keyword 3"],
+          "bid": 0.5,
+          "fund": 100,
+          "status": "on",
+          "town": "Warsaw",
+          "radius": 10
+        }
+      ]
+    },
+    {
+      "name": "Product 2",
+      "campaigns": [
+        {
+          "name": "Campaign 1",
+          "keywords": ["keyword 1", "keyword 2", "keyword 3"],
+          "bid": 0.5,
+          "fund": 100,
+          "status": "on",
+          "town": "Wroclaw",
+          "radius": 10
+        },
+        {
+          "name": "Campaign 2",
+          "keywords": ["keyword 1", "keyword 2", "keyword 3"],
+          "bid": 0.5,
+          "fund": 100,
+          "status": "on",
+          "town": "New York",
+          "radius": 10
+        }
+      ]
+    }
+  ],
+  "emerald": {
+    "amount": 1000
+  },
+  "towns": [
+    "Cracow",
+    "Warsaw",
+    "Wroclaw",
+    "New York",
+    "Los Angeles",
+    "Chicago"
+  ],
+  "keywords": ["keyword 1", "keyword 2", "keyword 3"]
+}
