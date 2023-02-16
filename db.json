@@ -1,54 +1,39 @@
 {
   "products": [
     {
-      "name": "Product 1",
-      "campaigns": [
-        {
-          "name": "Campaign 1",
-          "keywords": ["keyword 1", "keyword 2", "keyword 3"],
-          "bid": 0.5,
-          "fund": 100,
-          "status": "on",
-          "town": "Cracow",
-          "radius": 10
-        },
-        {
-          "name": "Campaign 2",
-          "keywords": ["keyword 1", "keyword 2", "keyword 3"],
-          "bid": 0.5,
-          "fund": 100,
-          "status": "on",
-          "town": "Warsaw",
-          "radius": 10
-        }
-      ]
+      "id": "dfgsdfg",
+      "name": "Product 1"
     },
     {
-      "name": "Product 2",
-      "campaigns": [
-        {
-          "name": "Campaign 1",
-          "keywords": ["keyword 1", "keyword 2", "keyword 3"],
-          "bid": 0.5,
-          "fund": 100,
-          "status": "on",
-          "town": "Wroclaw",
-          "radius": 10
-        },
-        {
-          "name": "Campaign 2",
-          "keywords": ["keyword 1", "keyword 2", "keyword 3"],
-          "bid": 0.5,
-          "fund": 100,
-          "status": "on",
-          "town": "New York",
-          "radius": 10
-        }
-      ]
+      "id": "sdfgsdfgsdffgg",
+      "name": "Product 2"
+    },
+    {
+      "id": "sdfgsdfg",
+      "name": "Product 3"
+    },
+    {
+      "id": "sdfgsfnbdfhjfsshd",
+      "name": "Product 4"
     }
   ],
-  "emerald": {
-    "amount": 1000
+  "campaigns": [
+    {
+      "id": "5b88238c-8ff4-d72c-b03d-41734cddfff5",
+      "productId": "sdfgsdfgsdffgg",
+      "status": true,
+      "name": "Very Big Campaign",
+      "keywords": [
+        "keyword 2"
+      ],
+      "bidAmount": 6666,
+      "campaignFund": 6666,
+      "town": "New York",
+      "radius": 1000
+    }
+  ],
+  "emeralds": {
+    "amount": 5569
   },
   "towns": [
     "Cracow",
@@ -58,5 +43,9 @@
     "Los Angeles",
     "Chicago"
   ],
-  "keywords": ["keyword 1", "keyword 2", "keyword 3"]
+  "keywords": [
+    "keyword 1",
+    "keyword 2",
+    "keyword 3"
+  ]
 }
